@@ -12,10 +12,6 @@ function oblicz() {
     var q = eval(p);
     document.getElementById("result").value = q;
 }
- 
-function dodajRamke(){
-document.getElementById("calosc").style.backgroundColor="yellow";
-}
 
 
 
