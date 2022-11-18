@@ -1,0 +1,78 @@
+body {
+    background-image: linear-gradient(to left, white, lightpink, pink, deeppink, purple, black);
+  }
+.calculator {
+    padding: 10px;
+    border-radius: 1em;
+    height: 500px;
+    width: 350px;
+    margin: auto;
+    background-color: darkgrey;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+    display: 20%;
+    margin-right: 730px;
+    margin-top: 210px;
+}
+
+.display-box {
+    font-family: 'Orbitron', sans-serif;
+    background-color: white;
+    border: solid black 0.5px;
+    color: black;
+    border-radius: 5px;
+    word-break: break-all;
+    width: 90%;
+    height: 70%;
+    font-size: 50px;
+    border-top: 3px solid deeppink;
+    border-left: 3px solid deeppink;   
+    border-right: 3px solid deeppink;  
+    border-bottom: 3px solid deeppink;
+    inline-size: 600px;
+    overflow-wrap: break-all;
+ 
+}
+ 
+#btn {
+    background-color: deeppink;
+    color: whitesmoke
+
+}
+#btn:hover{
+    background-color:hotpink;
+}
+input[type=button] {
+    font-family: arial ;
+    background-color: lightpink;
+    color: rgb(0, 0, 0);
+    border: solid black 0.5px;
+    width: 90%;
+    border-radius: 5px;
+    height: 65%;
+    outline: none;
+    font-weight: bolder;
+ 
+}
+ 
+input:active[type=button] {
+    background: deeppink;
+    -webkit-box-shadow: inset 0px 0px 5px lightpink;
+    box-shadow: inset 0px 0px 5px lightpink;
+ 
+}
+ 
+input:hover[type=button]{
+    background-color: deeppink;
+}
+.guziki{
+    background-color: pink;
+    font-size:medium;
+ 	width: 10px;
+ 	height: 10px;
+}
+
+ 

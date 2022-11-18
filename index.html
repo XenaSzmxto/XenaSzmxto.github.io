@@ -1,0 +1,57 @@
+<!doctype html>
+	<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="style3.css">
+		<script type="text/javascript" src="skrypty.js"></script>
+		<title> Kalkulator </title>
+	</head>
+
+	<body>
+		<div id="calosc" onmouseover="dodajKlase()" class="zmiana">
+		<div id="dispaly"></div>
+
+		
+<table class="calculator" >
+  <tr>
+    <td colspan="3"> <input class="display-box" type="text" id="result" disabled /> </td>
+ 
+<div class="guziki">
+    <td> <input type="button" value="C" onclick="Czyszczenie()" id="btn" /> </td>
+  </tr>
+  <tr>
+ 
+    <td> <input type="button" value="1" onclick="wyswietl('1')" /> </td>
+    <td> <input type="button" value="2" onclick="wyswietl('2')" /> </td>
+    <td> <input type="button" value="3" onclick="wyswietl('3')" /> </td>
+    <td> <input type="button" value="/" onclick="wyswietl('/')" /> </td>
+  </tr>
+  <tr>
+    <td> <input type="button" value="4" onclick="wyswietl('4')" /> </td>
+    <td> <input type="button" value="5" onclick="wyswietl('5')" /> </td>
+    <td> <input type="button" value="6" onclick="wyswietl('6')" /> </td>
+    <td> <input type="button" value="-" onclick="wyswietl('-')" /> </td>
+  </tr>
+  <tr>
+    <td> <input type="button" value="7" onclick="wyswietl('7')" /> </td>
+    <td> <input type="button" value="8" onclick="wyswietl('8')" /> </td>
+    <td> <input type="button" value="9" onclick="wyswietl('9')" /> </td>
+    <td> <input type="button" value="+" onclick="wyswietl('+')" /> </td>
+  </tr>
+  <tr>
+    <td> <input type="button" value="." onclick="wyswietl('.')" /> </td>
+    <td> <input type="button" value="0" onclick="wyswietl('0')" /> </td>
+ 
+    <td> <input type="button" value="=" onclick="oblicz()" id="btn" /> </td>
+    <td> <input type="button" value="*" onclick="wyswietl('*')" /> </td>
+  </tr>
+</table>
+
+	</div>
+	<div id="guzikdzialanie">
+	</body>
+
+
+
+	</html>
